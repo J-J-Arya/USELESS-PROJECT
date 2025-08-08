@@ -1,18 +1,14 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>Webalyzer Splash</title>
+    <title>Webalyzer</title>
+    <meta http-equiv="refresh" content="3;url={{ url_for('spider_check') }}">
     <link rel="stylesheet" href="{{ url_for('static', filename='splash.css') }}">
-    <script>
-        setTimeout(() => {
-            window.location.href = "/spider-check";
-        }, 3000);
-    </script>
 </head>
 <body>
     <div class="splash-container">
-        <h1>🕸️ Webalyzer</h1>
-        <p>Analyzing webs so spiders don't have to.</p>
+        <h1 class="fade-in">🕷 Welcome to Webalyzer 🕸</h1>
+        <p class="fade-in-delay">Analyzing webs like a real spider...</p>
     </div>
 </body>
 </html>
