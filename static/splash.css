@@ -1,0 +1,16 @@
+body {
+    background-color: #000;
+    color: #fff;
+    text-align: center;
+    font-family: 'Courier New', monospace;
+    padding: 100px;
+}
+
+.splash-container {
+    animation: fadein 2s ease-in-out;
+}
+
+@keyframes fadein {
+    from { opacity: 0; }
+    to { opacity: 1; }
+}

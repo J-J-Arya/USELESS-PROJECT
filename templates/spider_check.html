@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Spider Check</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='quiz.css') }}">
+</head>
+<body>
+    <h1>🕷️ Are you a spider?</h1>
+    <form method="POST">
+        <label>Do you have 8 legs?</label><br>
+        <input type="radio" name="legs" value="yes"> Yes
+        <input type="radio" name="legs" value="no"> No<br><br>
+
+        <label>Do you spin webs?</label><br>
+        <input type="radio" name="webs" value="yes"> Yes
+        <input type="radio" name="webs" value="no"> No<br><br>
+
+        <button type="submit">Continue</button>
+    </form>
+    {% if not_spider %}
+        <p class="error">🚫 You are not a spider. Access denied!</p>
+    {% endif %}
+</body>
+</html>
