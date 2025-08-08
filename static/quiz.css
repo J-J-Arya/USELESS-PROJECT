@@ -1,70 +1,42 @@
 body {
-    background-color: #111;
+    background-color: #1a1a1a;
     color: #fff;
-    font-family: 'Poppins', sans-serif;
+    font-family: Arial, sans-serif;
     text-align: center;
-    margin: 0;
-    padding: 0;
-}
-
-h1 {
-    margin-top: 30px;
-    font-size: 2.5em;
-    color: #ff4c4c;
-    text-shadow: 0 0 10px #ff4c4c, 0 0 20px #ff6666;
-}
-
-p {
-    font-size: 1.2em;
-    margin-bottom: 20px;
+    padding: 20px;
 }
 
 .captcha-grid {
     display: grid;
-    grid-template-columns: repeat(2, 180px);
+    grid-template-columns: repeat(3, 150px);
     gap: 15px;
     justify-content: center;
     margin-top: 20px;
 }
 
-.captcha-grid label {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    cursor: pointer;
-}
-
 .captcha-grid img {
-    width: 180px;
-    height: 180px;
-    object-fit: cover;
-    border-radius: 10px;
+    width: 150px;
+    height: 150px;
     border: 3px solid transparent;
-    transition: 0.3s ease;
+    cursor: pointer;
+    transition: 0.3s;
 }
 
-.captcha-grid input[type="checkbox"] {
-    display: none;
-}
-
-.captcha-grid input[type="checkbox"]:checked + img {
-    border-color: #00ff88;
-    box-shadow: 0 0 15px #00ff88;
+.captcha-grid img:hover {
+    border-color: #00ff99;
 }
 
 button {
-    margin-top: 25px;
-    padding: 12px 25px;
-    font-size: 1.1em;
-    background-color: #ff4c4c;
-    color: white;
+    background-color: #00ff99;
+    color: black;
+    padding: 10px 20px;
+    margin-top: 20px;
     border: none;
-    border-radius: 8px;
+    font-size: 16px;
     cursor: pointer;
-    transition: background-color 0.3s ease, transform 0.2s ease;
+    transition: 0.3s;
 }
 
 button:hover {
-    background-color: #ff1f1f;
-    transform: scale(1.05);
+    background-color: #00cc77;
 }

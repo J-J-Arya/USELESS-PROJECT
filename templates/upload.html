@@ -1,14 +1,71 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>Upload Web</title>
+    <title>Upload Spider Web</title>
     <link rel="stylesheet" href="{{ url_for('static', filename='upload.css') }}">
+    <style>
+        .progress-container {
+            width: 100%;
+            max-width: 400px;
+            margin: 20px auto;
+            display: none;
+        }
+
+        .progress-bar {
+            height: 25px;
+            background-color: #00ff99;
+            width: 0%;
+            text-align: center;
+            line-height: 25px;
+            color: black;
+            font-weight: bold;
+            transition: width 0.2s ease;
+        }
+    </style>
 </head>
 <body>
-    <h1>📤 Upload Your Web</h1>
-    <form method="POST" enctype="multipart/form-data">
-        <input type="file" name="image" accept="image/*" required><br><br>
-        <button type="submit">Analyze</button>
+    <h1>Upload Spider Web 🕸</h1>
+
+    {% if error %}
+        <p style="color:red;">{{ error }}</p>
+    {% endif %}
+
+    {% if success %}
+        <p style="color:lime;">{{ success }}</p>
+    {% endif %}
+
+    <form id="uploadForm" method="post" enctype="multipart/form-data">
+        <input type="file" name="file" required>
+        <button type="submit" id="uploadBtn">Upload</button>
     </form>
+
+    <!-- Progress bar -->
+    <div class="progress-container">
+        <div class="progress-bar" id="progressBar">0%</div>
+    </div>
+
+    <script>
+        document.getElementById("uploadForm").addEventListener("submit", function(e) {
+            let progressBar = document.getElementById("progressBar");
+            let container = document.querySelector(".progress-container");
+            let uploadBtn = document.getElementById("uploadBtn");
+
+            container.style.display = "block";
+            uploadBtn.disabled = true;
+
+            let progress = 0;
+            let interval = setInterval(() => {
+                if (progress >= 100) {
+                    clearInterval(interval);
+                    this.submit(); // Actually submit form after animation
+                } else {
+                    progress++;
+                    progressBar.style.width = progress + "%";
+                    progressBar.textContent = progress + "%";
+                }
+            }, 20); // Adjust speed here
+            e.preventDefault(); // Stop immediate submit to show animation
+        });
+    </script>
 </body>
 </html>
