@@ -14,3 +14,10 @@ body {
     from { opacity: 0; }
     to { opacity: 1; }
 }
+
+.logo {
+    display: block;       /* centers the image */
+    margin: 0 auto 20px;  /* center horizontally + bottom margin */
+    max-width: 150px;     /* max width to keep it small */
+    height: auto;         /* maintain aspect ratio */
+}

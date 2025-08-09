@@ -7,34 +7,34 @@
 <body>
     <h1>Are you a Spider? 🕷</h1>
     {% if error %}
-        <p style="color:red;">{{ error }}</p>
+        <p style="color:red;">Bro You're not a spider</p>
     {% endif %}
     <form method="post">
         <p>Select all images with spider webs:</p>
         <div class="captcha-grid">
             <label>
                 <input type="checkbox" name="images" value="web1.jpg">
-                <img src="{{ url_for('static', filename='spiderweb1.jpg') }}">
+                <img src="{{ url_for('static', filename='spiderweb1.jpg') }}" alt="Spider web 1">
             </label>
             <label>
                 <input type="checkbox" name="images" value="random1.jpg">
-                <img src="{{ url_for('static', filename='fishnet1.jpeg') }}">
+                <img src="{{ url_for('static', filename='fishnet1.jpeg') }}" alt="Fishnet 1">
             </label>
             <label>
                 <input type="checkbox" name="images" value="web2.jpg">
-                <img src="{{ url_for('static', filename='spiderweb3.jpg') }}">
+                <img src="{{ url_for('static', filename='spiderweb3.jpg') }}" alt="Spider web 2">
             </label>
             <label>
                 <input type="checkbox" name="images" value="random2.jpg">
-                <img src="{{ url_for('static', filename='fishnet2.avif') }}">
+                <img src="{{ url_for('static', filename='fishnet2.avif') }}" alt="Fishnet 2">
             </label>
             <label>
                 <input type="checkbox" name="images" value="web3.jpg">
-                <img src="{{ url_for('static', filename='spiderweb2.jpg') }}">
+                <img src="{{ url_for('static', filename='spiderweb2.jpg') }}" alt="Spider web 3">
             </label>
             <label>
                 <input type="checkbox" name="images" value="web4.jpg">
-                <img src="{{ url_for('static', filename='spiderweb4.jpg') }}">
+                <img src="{{ url_for('static', filename='spiderweb4.jpg') }}" alt="Spider web 4">
             </label>
         </div>
         <button type="submit">Verify</button>
