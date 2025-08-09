@@ -1,135 +1,92 @@
-PROJECT NAME - WEBALYZER
-
-
-Team Name: [TEAM ZEN]
-
+WEBALYZER 🎯
+Basic Details
+Team Name: TEAM ZEN
 Team Members
-Member 1:J J ARYA - CUSAT
-Member 1:J J ARYA - CUSAT
+Team Lead: J J ARYA - CUSAT
+
 Member 2: ATHUL V - CUSAT
 
-📝 Project Description:
+Project Description
 Webalyzer is a Flask-based web tool that simulates a spider’s behavior by analyzing spider webs through a playful and interactive UI.
 
-It includes:
-
--A splash screen
-
--CAPTCHA-style spider verification
-
--Image upload & web analysis
-
--Output prediction based on closed loops in the web
-
-❓ Problem
+The Problem (that doesn't exist)
 How do spiders keep analyzing their webs if we don’t make an app for them?
 
-💡 Solution
+The Solution (that nobody asked for)
 A web app (so spiders don’t need to download anything!) that allows them to upload pictures of their webs.
-
 The app:
 
--Analyzes the image
+Analyzes the image
 
--Counts the number of closed loops
+Counts the number of closed loops
 
--Estimates how many flies might get caught based on that
+Estimates how many flies might get caught based on that
 
--Pretty useful, isn’t it? 🕷️
+Pretty useful, isn’t it? 🕷
 
+Technical Details
+Technologies/Components Used
+For Software:
 
-⚙️ Technical Details
-Technologies Used:
+Languages used: Python, HTML, CSS
 
--Flask (Python) – for the backend & routing
+Frameworks used: Flask
 
--OpenCV – for image processing
+Libraries used: OpenCV
 
--HTML/CSS  – for the UI
+Tools used: Any code editor (VS Code recommended), Python environment
 
+For Hardware:
 
-📄 Project Documentation
-📝 Project Description:
-Webalyzer is a Flask-based web tool that simulates a spider’s behavior by analyzing spider webs through a playful and interactive UI.
+None (Purely software/web app)
 
-It includes:
+Implementation
+For Software:
 
--A splash screen
+Installation
+[commands]
 
--CAPTCHA-style spider verification
+Run
+[commands]
 
--Image upload & web analysis
+Project Documentation
+For Software:
 
--Output prediction based on closed loops in the web
+Screenshots (Add at least 3)
+![Screenshot1](Add screenshot 1 here with proper name) Add caption explaining what this shows
 
-❓ Problem
-How do spiders keep analyzing their webs if we don’t make an app for them?
+![Screenshot2](Add screenshot 2 here with proper name) Add caption explaining what this shows
 
-💡 Solution
-A web app (so spiders don’t need to download anything!) that allows them to upload pictures of their webs.
+![Screenshot3](Add screenshot 3 here with proper name) Add caption explaining what this shows
 
-The app:
+Diagrams
+![Workflow](Add your workflow/architecture diagram here) Add caption explaining your workflow
 
--Analyzes the image
+For Hardware:
 
--Counts the number of closed loops
+Schematic & Circuit
+![Circuit](Add your circuit diagram here) Add caption explaining connections
 
--Estimates how many flies might get caught based on that
+![Schematic](Add your schematic diagram here) Add caption explaining the schematic
 
--Pretty useful, isn’t it? 🕷️
+Build Photos
+![Components](Add photo of your components here) List out all components shown
 
+![Build](Add photos of build process here) Explain the build steps
 
-⚙️ Technical Details
-Technologies Used:
+![Final](Add photo of final product here) Explain the final build
 
--Flask (Python) – for the backend & routing
+Project Demo
+Video
+[Add your demo video link here] Explain what the video demonstrates
 
--OpenCV – for image processing
+Additional Demos
+[Add any extra demo materials/links]
 
--HTML/CSS  – for the UI
+Team Contributions
+J J ARYA: CODING AND BACKEND
+ATHUL V: DESIGNING AND UI
 
+Made with ❤️ at TinkerHub Useless Projects
 
-📄 Project Documentation
-
-📸 Screenshots: Screenshots are stored in the 'Screenshots' folder and are uploaded below 
-
-![Screenshot of Splash Screen](Screenshots/Screenshot%202025-08-09%20060118.png)  
-![Screenshot of Fake CAPTCHA](Screenshots/Screenshot%202025-08-09%20055848.png)  
-![Screenshot of Upload Window](Screenshots/Screenshot%202025-08-09%20052832.png)  
-![Screenshot of Result](Screenshots/Screenshot%202025-08-09%20052922.png)
-
-
-
- **NOTE**
-
-📸 Sample pictures for usage are stored in `imagess/` . USE THEM !!!
-
-![Sample picture 1](imagess/Screenshot%202025-08-09%20052330.png)  
-![Sample picture 2](imagess/Screenshot%202025-08-09%20055719.png)
-
-🧪LOGO:
-![Sample picture 1](Logo.jpg)
-
-
-🕸️🕷️🕸️
-Because even spiders deserve good software...
-📸 Screenshots: Screenshots are stored in the 'Screenshots' folder and are uploaded below 
-
-![Screenshot of Splash Screen](Screenshots/Screenshot%202025-08-09%20060118.png)  
-![Screenshot of Fake CAPTCHA](Screenshots/Screenshot%202025-08-09%20055848.png)  
-![Screenshot of Upload Window](Screenshots/Screenshot%202025-08-09%20052832.png)  
-![Screenshot of Result](Screenshots/Screenshot%202025-08-09%20052922.png)
-
-
-
-🧪 **NOTE**
-
-📸 Sample pictures for usage are stored in `imagess/` . USE THEM !!!
-
-![Sample picture 1](imagess/Screenshot%202025-08-09%20052330.png)  
-![Sample picture 2](imagess/Screenshot%202025-08-09%20055719.png)
-
-
-
-🕸️🕷️🕸️
-Because even spiders deserve good software...
+Static Badge Static Badge
