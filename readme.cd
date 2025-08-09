@@ -47,23 +47,24 @@ Technologies Used:
 -HTML/CSS  – for the UI
 
 
-📄Project Documentation
+📄 Project Documentation
 
-📸Screenshots: Screenshots are stored in the 'Screenshots' folder and are uploaded below 
+📸 Screenshots: Screenshots are stored in the 'Screenshots' folder and are uploaded below 
 
-![Screenshot of Splash Screen](Screenshots/Screenshot 2025-08-09 060118.png)
-![Screenshot of Fake Capcha](Screenshots/Screenshot 2025-08-09 055848.png)
-![Screenshot of Upload Window](Screenshots/Screenshot 2025-08-09 052832.png)
-![Screenshot of Result](Screenshots/Screenshot 2025-08-09 052922.png)
+![Screenshot of Splash Screen](Screenshots/Screenshot%202025-08-09%20060118.png)  
+![Screenshot of Fake CAPTCHA](Screenshots/Screenshot%202025-08-09%20055848.png)  
+![Screenshot of Upload Window](Screenshots/Screenshot%202025-08-09%20052832.png)  
+![Screenshot of Result](Screenshots/Screenshot%202025-08-09%20052922.png)
 
 
 
-🧪**NOTE**
+🧪 **NOTE**
 
-📸Sample pictures for usage (Stored in imagess):
+📸 Sample pictures for usage (Stored in `imagess/`):
 
-![Sample picture 1](imagess/Screenshot 2025-08-09 052330.png)
-![Sample picture 2](imagess/Screenshot 2025-08-09 055719.png)
+![Sample picture 1](imagess/Screenshot%202025-08-09%20052330.png)  
+![Sample picture 2](imagess/Screenshot%202025-08-09%20055719.png)
+
 
 
 🕸️🕷️🕸️
