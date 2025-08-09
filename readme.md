@@ -93,16 +93,15 @@ For Hardware:
 
 # Additional Demos
 🧪 *NOTE*
+<!-- Sample spider web images -->
 
-📸 Sample pictures for usage are stored in `imagess/` (in case the link doesn't appear here)
 <img width="293" height="243" alt="Screenshot 2025-08-09 052330" src="https://github.com/user-attachments/assets/14234496-0ea0-4ff3-ae06-509f8394a21d" />
 
 
-<!-- Sample spider web image 1 -->
 
 <img width="360" height="356" alt="Screenshot 2025-08-09 055719" src="https://github.com/user-attachments/assets/9b4ede68-9247-4f2d-9c50-c661468158af" />
 
-<!-- Sample spider web image 2 -->
+
 
 ## Team Contributions
 J J ARYA: Coding and Backend development (Flask, OpenCV)
