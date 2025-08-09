@@ -54,7 +54,7 @@ Tagline : Because even spiders deserve good software...
 
 📸 Screenshots: Screenshots are stored in the 'Screenshots' folder (in case they don’t appear here) and are also uploaded below
 
-![Screenshot of Splash Screen](https://raw.githubusercontent.com/J-J-Arya/USELESS-PROJECT/main/Screenshots/Screenshot%202025-08-09%20060118.png)
+
 <!-- Splash screen welcoming users to Webalyzer. -->
 
 ![Screenshot of Fake CAPTCHA](https://raw.githubusercontent.com/J-J-Arya/USELESS-PROJECT/main/Screenshots/Screenshot%202025-08-09%20055848.png)
