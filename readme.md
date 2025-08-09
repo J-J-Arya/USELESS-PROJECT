@@ -1,58 +1,51 @@
-WEBALYZER 🎯
-Basic Details
-Team Name: TEAM ZEN
-Team Members
-Team Lead: J J ARYA - CUSAT
+<img width="3188" height="1202" alt="frame (3)" src="https://github.com/user-attachments/assets/517ad8e9-ad22-457d-9538-a9e62d137cd7" />
 
-Member 2: ATHUL V - CUSAT
 
-Project Description
-Webalyzer is a Flask-based web tool that simulates a spider’s behavior by analyzing spider webs through a playful and interactive UI.
+# [WEBANALYZER] 🎯
 
-The Problem (that doesn't exist)
-How do spiders keep analyzing their webs if we don’t make an app for them?
 
-The Solution (that nobody asked for)
-A web app (so spiders don’t need to download anything!) that allows them to upload pictures of their webs.
-The app:
+## Basic Details
+### Team Name: [TEAM ZEN]
 
-Analyzes the image
 
-Counts the number of closed loops
+### Team Members
+- Team Lead: [J J ARYA] - [CUSAT]
+- Member 2: [ATHUL V] - [CUSAT]
 
-Estimates how many flies might get caught based on that
 
-Pretty useful, isn’t it? 🕷
+### Project Description
+[Webalyzer is a Flask-based web tool that simulates a spider’s behavior by analyzing spider webs through a playful and interactive UI.]
 
-Technical Details
-Technologies/Components Used
+### The Problem (that doesn't exist)
+[How do spiders keep analyzing their webs if we don’t make an app for them?]
+
+### The Solution (that nobody asked for)
+[A web app (so spiders don’t need to download anything!) that allows them to upload pictures of their webs.]
+
+## Technical Details
+### Technologies/Components Used
 For Software:
-
-Languages used: Python, HTML, CSS
-
-Frameworks used: Flask
-
-Libraries used: OpenCV
-
-Tools used: Any code editor (VS Code recommended), Python environment
+- [ Python, HTML, CSS]
+- [Flask]
+- [OpenCV]
+- [Any code editor (VS Code recommended), Python environment]
 
 For Hardware:
+-None (Purely software/web app)
 
-None (Purely software/web app)
-
-Implementation
+### Implementation
 For Software:
+# Installation
+[pip install -r requirements.txt]
 
-pip install -r requirements.txt
+# Run
+[python app.py]
 
-Run:
-python app.py
+### Project Documentation
+For Software: Tagline : Because even spiders deserve good software...
 
-
-Project Documentation:
-Tagline : Because even spiders deserve good software...
-
-📸 Screenshots: Screenshots are stored in the 'Screenshots' folder (in case they don’t appear here) and are also uploaded below
+# Screenshots (Add at least 3)
+📸  Screenshots are stored in the 'Screenshots' folder (in case they don’t appear here) and are also uploaded below
 
 <img width="1288" height="593" alt="Screenshot 2025-08-09 060118" src="https://github.com/user-attachments/assets/7f504e6c-0480-4b44-a414-d20fa047e78c" />
 
@@ -70,17 +63,35 @@ Tagline : Because even spiders deserve good software...
 
 <!-- Results showing number of closed loops and fly catch estimate. -->
 
-Diagrams
 
+# Diagrams
 This diagram shows the flow: Splash screen → CAPTCHA verification → Image upload → Image analysis using OpenCV → Result display.
 
-Project Demo
-Video
+For Hardware:
+
+# Schematic & Circuit
+![Circuit](Add your circuit diagram here)
+*Add caption explaining connections*
+
+![Schematic](Add your schematic diagram here)
+*Add caption explaining the schematic*
+
+# Build Photos
+![Components](Add photo of your components here)
+*List out all components shown*
+
+![Build](Add photos of build process here)
+*Explain the build steps*
+
+![Final](Add photo of final product here)
+*Explain the final build*
+
+### Project Demo
+# Video
 [Add your demo video link here]
-This video demonstrates the complete user journey through the Webalyzer app, from start to finish.
+*Explain what the video demonstrates*
 
-Additional Demos:
-
+# Additional Demos
 🧪 *NOTE*
 
 📸 Sample pictures for usage are stored in `imagess/` (in case the link doesn't appear here)
@@ -93,12 +104,17 @@ Additional Demos:
 
 <!-- Sample spider web image 2 -->
 
-
-Team Contributions
+## Team Contributions
 J J ARYA: Coding and Backend development (Flask, OpenCV)
 
 ATHUL V: Designing and UI (HTML/CSS, front-end design)
 
-Made with ❤️ at TinkerHub Useless Projects
+---
+Made with ❤️ at TinkerHub Useless Projects 
+
+![Static Badge](https://img.shields.io/badge/TinkerHub-24?color=%23000000&link=https%3A%2F%2Fwww.tinkerhub.org%2F)
+![Static Badge](https://img.shields.io/badge/UselessProjects--25-25?link=https%3A%2F%2Fwww.tinkerhub.org%2Fevents%2FQ2Q1TQKX6Q%2FUseless%2520Projects)
+
+
 
 
